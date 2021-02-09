@@ -8,7 +8,7 @@
   "ignoredWords": [
     "^.{1,3}$"
   ],
-  "implementationOverride": "com.udacity.webcrawler.SequentialWebCrawler",
+  "implementationOverride": "com.udacity.webcrawler.ParallelWebCrawler",
   "maxDepth": 2,
   "timeoutSeconds": 1,
   "popularWordCount": 5

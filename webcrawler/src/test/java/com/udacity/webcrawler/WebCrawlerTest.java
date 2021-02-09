@@ -24,7 +24,8 @@ public final class WebCrawlerTest {
   private static final String DATA_DIR = System.getProperty("testDataDir");
 
   static Stream<Class<?>> provideTestParameters() throws Exception {
-    String[] names = System.getProperty("crawlerImplementations").split("\\s+");
+//    String[] names = System.getProperty("crawlerImplementations").split("\\s+");
+    String[] names = {"com.udacity.webcrawler.SequentialWebCrawler", "com.udacity.webcrawler.ParallelWebCrawler"};
     List<Class<?>> classes = new ArrayList<>();
     for (String name : names) {
       classes.add(Class.forName(name.strip()));
