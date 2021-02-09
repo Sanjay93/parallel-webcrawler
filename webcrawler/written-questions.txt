@@ -47,7 +47,7 @@ Q3. Analyze your method profiler through the lens of Aspect Oriented Programming
     (b) What are the join points of the Profiler in the web crawler program?
 Ans:
 (a)  Providing proxy instance for methods having @Profile annotation at runtime. Provides writing the profiler data to file by given path or writer.
-(b)  The profiler aggregates information about profiled method calls, and how long they took. The aggregate information can then be written to a file with duration.
+(b)  The profiler aggregates information about profiled method calls, and how long they took. Here the join point is Methods annotated with @Profiler annotation
 
 
 Q4. Identify three (3) different design patterns used in this project, and explain which interfaces, classes, and/or
