@@ -9,7 +9,7 @@
     "^.{1,3}$"
   ],
   "implementationOverride": "com.udacity.webcrawler.ParallelWebCrawler",
-  "maxDepth": 2,
+  "maxDepth": 10,
   "timeoutSeconds": 1,
   "popularWordCount": 5
 }
